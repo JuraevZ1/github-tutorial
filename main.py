@@ -7,3 +7,6 @@ while flag:
         break
     with open('pi.txt','a') as fayl:
         json.dump(soz,fayl)
+
+def salom():
+    return "Hello word"
